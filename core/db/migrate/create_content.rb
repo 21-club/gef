@@ -1,6 +1,6 @@
 class CreateContent < ActiveRecord::Migration
   def self.up
-    create_table :content do |t|
+    create_table :contents do |t|
       t.string :name
       t.belongs_to :content_types
 
@@ -21,7 +21,7 @@ class CreateContent < ActiveRecord::Migration
     
   end
   def self.down
-    drop_table :content
+    drop_table :contents
     drop_table :elements_data
     drop_table :content_elements
   end
