@@ -2,7 +2,7 @@ require_relative 'lib/core/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gef_core"
-  spec.version       = Core::VERSION
+  spec.version       = Gef::Core::VERSION
   spec.authors       = ["Vito Mannina"]
   spec.email         = ["mannina.vito@gmail.com"]
 
