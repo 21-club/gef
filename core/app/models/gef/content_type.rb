@@ -8,7 +8,7 @@ module Gef
     #assosiations
     has_many :elements, through: :content_types_elements
     has_many :content_types_elements
-    has_many :content #FIXME: giusto?
+    has_many :contents
   end
 end
 
