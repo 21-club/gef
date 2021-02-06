@@ -9,6 +9,8 @@ Gem::Specification.new do |spec|
   spec.description = spec.summary
   spec.license     = "MIT"
 
+  spec.homepage      = "https://github.com/21-club/gef"
+
   spec.files        = `git ls-files`.split("\n")
   spec.require_path = 'lib'
 

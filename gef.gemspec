@@ -2,9 +2,9 @@ require_relative 'lib/gef/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gef"
-  spec.version       = Gef::VERSION
-  spec.authors       = ["Vito Mannina"]
-  spec.email         = ["mannina.vito@gmail.com"]
+  spec.version       = Gef.version
+  spec.authors       = ["21Club"]
+  spec.email         = ["info@21club.it"]
 
   spec.summary       = %q{Write a short summary, because RubyGems requires one.}
   spec.description   = %q{Write a longer description or delete this line.}
