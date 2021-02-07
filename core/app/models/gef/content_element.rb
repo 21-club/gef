@@ -8,7 +8,6 @@ module Gef
     #assosiations
     belongs_to :content
     belongs_to :elements_data
-    belongs_ to :content_types_element 
-
+    belongs_to :content_types_element 
   end
 end
