@@ -1,4 +1,4 @@
-require_relative 'lib/gef/version'
+require_relative 'core/lib/gef/core/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gef"
@@ -25,5 +25,6 @@ Gem::Specification.new do |spec|
   
   spec.files = Dir['README.md', 'lib/**/*']
 
+  spec.add_dependency 'gef_api', spec.version
   spec.add_dependency 'gef_core', spec.version
 end

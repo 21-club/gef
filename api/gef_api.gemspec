@@ -11,9 +11,9 @@ Gem::Specification.new do |spec|
   spec.license     = "MIT"
 
   spec.files        = `git ls-files`.split("\n")
-  spec.require_path = 'lib'
+  spec.require_path = "lib"
 
   spec.add_dependency "rails", "~> 6.1.1"
-  gem.add_dependency 'responders'
-  gem.add_dependency 'gef_core', gem.version
+  spec.add_dependency "responders"
+  spec.add_dependency "gef_core", spec.version
 end
