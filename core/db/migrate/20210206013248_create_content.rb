@@ -25,4 +25,3 @@ class CreateContent < ActiveRecord::Migration[6.1]
     drop_table :content_elements
   end
 end
-end
